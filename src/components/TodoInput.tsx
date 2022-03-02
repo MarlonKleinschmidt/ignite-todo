@@ -16,12 +16,10 @@ export function TodoInput({ addTask }: TodoInputProps) {
     if (!task) {
       return;
     } 
-    else {
-      // preenchido
-      addTask(task);
-      setTask('');
-    }
-
+    
+    // preenchido
+    addTask(task);
+    setTask('');
 
   }
 
